@@ -3,6 +3,10 @@
 // ==================================== */
 
 :root {
+  --black: #0d0d0d;
+  --white: #fff;
+  --green: #70fb6c;
+  --purple: #9c63df;
 }
 
 /* ====================================
@@ -42,3 +46,9 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  font-family: "gosharegular";
+  color: var(--white);
+  background-color: var(--black);
+}
