@@ -1,5 +1,18 @@
 .footer-partners {
   background-image: var(--gradient);
+  font-family: "goshabold";
+  font-size: 83px;
+  line-height: 0.7;
+  letter-spacing: -5.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.footer-partners-container  {
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-animation-container {
