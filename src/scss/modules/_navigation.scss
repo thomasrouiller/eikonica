@@ -1,0 +1,22 @@
+.test-gradient {
+  width: 100%;
+  padding: 20px 0px;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 30s infinite ease-in-out;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  80% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
