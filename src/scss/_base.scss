@@ -62,8 +62,13 @@ body {
   font-family: "gosharegular";
   color: var(--white);
   background-color: var(--black);
+  text-transform: uppercase;
 }
 
 $container-max-widths: (
   lg: 1800px,
 ) !default;
+
+a {
+  text-decoration: none;
+}
