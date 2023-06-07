@@ -1,0 +1,15 @@
+.animation-banner {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  animation: scrollBanner 10s linear infinite;
+}
+
+@keyframes scrollBanner {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

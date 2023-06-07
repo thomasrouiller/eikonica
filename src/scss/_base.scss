@@ -61,3 +61,7 @@ body {
   color: var(--white);
   background-color: var(--black);
 }
+
+$container-max-widths: (
+  lg: 1800px,
+) !default;
