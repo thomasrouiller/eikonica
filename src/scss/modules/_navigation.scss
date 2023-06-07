@@ -1,22 +1,31 @@
-.test-gradient {
+.navigation {
   width: 100%;
-  padding: 20px 0px;
-  background-image: var(--gradient);
-  background-size: 400%;
-  animation: bg-animation 30s infinite ease-in-out;
+  padding: 46px 0px 5px 0px;
 }
 
-@keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: right;
-  }
-  80% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
+.navigation-logo {
+  width: 165px;
+}
+
+.navigation-language-selector {
+  font-family: "goshabold";
+  font-size: 21px;
+  color: var(--black);
+  letter-spacing: -0.06px;
+  margin-right: 20px;
+}
+
+.navigation-burger {
+  width: 65px;
+}
+
+.navigation-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.navigation-flex-merger {
+  display: flex;
 }
