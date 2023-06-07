@@ -4,16 +4,16 @@
   animation: bg-animation 30s infinite ease-in-out;
 }
 
+.gradient-animation-delay {
+  background-image: var(--gradient);
+  background-size: 600%;
+  animation: bg-animation 60s 1s infinite ease-in-out;
+}
+
 @keyframes bg-animation {
   0% {
     background-position: left;
   }
-  // 50% {
-  //   background-position: right;
-  // }
-  // 80% {
-  //   background-position: left;
-  // }
   100% {
     background-position: right;
   }

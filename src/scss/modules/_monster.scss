@@ -1,0 +1,13 @@
+.monster {
+  #father {
+    position: relative;
+    width: 170px;
+  }
+
+  #child {
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    width: 40px;
+  }
+}

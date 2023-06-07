@@ -5,11 +5,36 @@
   animation: scrollBanner 10s linear infinite;
 }
 
+.animation-banner img {
+  margin-right: 7px;
+}
+
 @keyframes scrollBanner {
   0% {
     transform: translate(0, 0);
   }
   100% {
     transform: translate(-50%, 0);
+  }
+}
+
+.animation-monster-01 {
+  animation: monster-rotation 4s 0s infinite ease-in-out;
+}
+
+.animation-monster-02 {
+  animation: monster-rotation 4.5s 2s infinite ease-in-out;
+}
+
+.animation-monster-03 {
+  animation: monster-rotation 3.5s 1s infinite ease-in-out;
+}
+
+@keyframes monster-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
