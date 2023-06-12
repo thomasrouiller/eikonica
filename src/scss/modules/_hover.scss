@@ -29,3 +29,11 @@
 .hover-link:hover {
   transform: scale(1.05);
 }
+
+.hover-burger {
+  transition: transform 0.3s;
+}
+
+.hover-burger:hover {
+  transform: scale(1.1);
+}
