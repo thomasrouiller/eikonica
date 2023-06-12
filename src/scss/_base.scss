@@ -72,3 +72,9 @@ $container-max-widths: (
 a {
   text-decoration: none;
 }
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}

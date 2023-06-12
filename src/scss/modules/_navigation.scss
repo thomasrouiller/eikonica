@@ -13,10 +13,11 @@
   color: var(--black);
   letter-spacing: -0.06px;
   margin-right: 20px;
+  line-height: 22px;
 }
 
 .navigation-burger {
-  width: 65px;
+  width: 30px;
 }
 
 .navigation-flex {
@@ -28,6 +29,7 @@
 
 .navigation-flex-merger {
   display: flex;
+  align-items: flex-end;
 }
 
 .navigation-open {
