@@ -11,7 +11,7 @@
 .article-flex h1 {
   font-family: "goshabold";
   font-size: 112px;
-  color: #0d0d0d;
+  color: var(--black);
   letter-spacing: -7.43px;
   line-height: 90px;
 }
@@ -34,4 +34,73 @@
 
 .article-arrow {
   max-width: 75px;
+}
+
+.article-text {
+  font-family: "gosharegular";
+  font-size: 18px;
+  color: var(--white);
+  letter-spacing: -0.05px;
+  margin-top: 42px;
+  margin-bottom: 72px;
+}
+
+.article-text h2 {
+  font-family: "goshabold";
+  font-size: 21px;
+  color: var(--white);
+  letter-spacing: -0.06px;
+}
+
+.article-thumb-container {
+  margin-top: 42px;
+  margin-bottom: 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article {
+  width: 300px;
+  height: 600px;
+}
+
+@media (min-width: 1500px) {
+  .article {
+    width: 400px;
+    height: 650px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .article {
+    width: 450px;
+    height: 700px;
+  }
+}
+
+.article span {
+  font-size: 16px;
+  letter-spacing: -1.06px;
+}
+
+.article p {
+  margin: 12px 0px;
+  font-size: 14px;
+  letter-spacing: -0.04px;
+}
+
+.article h2 {
+  font-size: 18px;
+  letter-spacing: -0.05px;
+}
+
+.article-arrow {
+  width: 39px;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
