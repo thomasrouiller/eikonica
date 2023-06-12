@@ -8,14 +8,21 @@
 .gradient-animation-delay {
   background-image: var(--gradient);
   background-size: 600%;
-  animation: bg-animation 60s 1s infinite ease-in-out;
+  animation: bg-animation 60s 3s infinite ease-in-out;
   overflow: hidden;
 }
 
 .gradient-animation-delay-02 {
   background-image: var(--gradient);
   background-size: 600%;
-  animation: bg-animation 60s 7s infinite ease-in-out;
+  animation: bg-animation 60s 0s infinite ease-in-out;
+  overflow: hidden;
+}
+
+.gradient-animation-delay-03 {
+  background-image: var(--gradient);
+  background-size: 600%;
+  animation: bg-animation 60s -10s infinite ease-in-out;
   overflow: hidden;
 }
 
