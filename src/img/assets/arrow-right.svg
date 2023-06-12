@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.23 168.58">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-    </style>
-  </defs>
-  <g id="Calque_1-2" data-name="Calque 1">
-    <path class="cls-1" d="m163.53,104.63H0v-40.67h163.53l-35.34-35.34L157.08,0l84.15,84.15-84.15,84.43-28.89-28.89,35.34-35.06Z"/>
-  </g>
+<svg width="71px" height="50px" viewBox="0 0 71 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-874.000000, -2435.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="SECTION-RESERVATION" transform="translate(12.000000, 1411.000000)">
+                <g id="BUTTON" transform="translate(298.000000, 1003.000000)">
+                    <g id="arrow-right" transform="translate(564.385000, 21.230563)">
+                        <polygon id="Path" points="47.4530531 30.3614807 0 30.3614807 0 18.5598806 47.4530531 18.5598806 37.1981097 8.3049372 45.5813953 -3.55271368e-15 70 24.4186047 45.5813953 48.9184596 37.1981097 40.5351739"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
