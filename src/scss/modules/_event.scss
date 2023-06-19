@@ -26,14 +26,13 @@
 .event-flex {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: baseline;
   margin: 0px 25px;
 }
 
 .event-logo {
   width: 208px;
   margin-left: 20px;
-  margin-top: 20px;
 }
 
 .event-arrow {
