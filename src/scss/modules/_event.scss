@@ -1,0 +1,45 @@
+.event-card {
+  font-family: "goshabold";
+  height: 596px;
+  margin: 10px 0px 50px 0px;
+}
+
+.event-text-layout {
+  padding-top: 400px;
+}
+
+.event-card h3 {
+  font-size: 112px;
+  letter-spacing: -7.43px;
+}
+
+.event-card p {
+  font-size: 28px;
+
+  letter-spacing: -1.86px;
+}
+
+.event-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0px 25px;
+}
+
+.event-logo {
+  width: 208px;
+  margin-left: 20px;
+}
+
+.event-arrow {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.event-card-expo {
+  background-image: url(../img/algo-art.webp);
+}
+
+.event-margin {
+  margin-top: -20px;
+}
