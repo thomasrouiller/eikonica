@@ -42,6 +42,8 @@
 
 .event-card-expo {
   background-image: url(../img/algo-art.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .event-margin {
@@ -51,4 +53,6 @@
 .event-card-concert {
   margin: 0px;
   background-image: url(../img/concert.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
